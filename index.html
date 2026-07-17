@@ -1080,15 +1080,6 @@
             canvas.addEventListener('touchend', () => isDrawing = false);
             canvas.addEventListener('touchmove', scratch);
         }
-            canvas.addEventListener('mousedown', () => isDrawing = true);
-            canvas.addEventListener('mouseup', () => isDrawing = false);
-            canvas.addEventListener('mousemove', scratch);
-
-            canvas.addEventListener('touchstart', () => isDrawing = true);
-            canvas.addEventListener('touchend', () => isDrawing = false);
-            canvas.addEventListener('touchmove', scratch);
-        }
-
         // ย้ายสลับไปหน้ามินิเกมจิ๊กซอว์
         function goToPageTwo() {
             const pageScratch = document.getElementById('page-scratch');
